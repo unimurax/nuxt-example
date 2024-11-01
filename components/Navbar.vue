@@ -1,14 +1,14 @@
 <template>
   <nav>
-    <ul>
-      <li>
-        <NuxtLink to="/">Home</NuxtLink>
+    <ul class="flex">
+      <li class="mr-6">
+        <NuxtLink class="hover:underline" to="/">Home</NuxtLink>
       </li>
-      <li>
-        <NuxtLink to="/about">About</NuxtLink>
+      <li class="mr-6">
+        <NuxtLink class="hover:underline" to="/about">About</NuxtLink>
       </li>
-      <li>
-        <NuxtLink to="/tasks">Tasks</NuxtLink>
+      <li class="mr-6">
+        <NuxtLink class="hover:underline" to="/tasks">Tasks</NuxtLink>
       </li>
     </ul>
   </nav>
